@@ -24,7 +24,7 @@ require('./auth/passport')(passport);
 // Express session
 app.use(
     session({
-      secret: '4135231b7f33c66406cdb2a78420fa76',
+      secret: process.env.SESSION_SECRET || require('crypto').randomBytes(32).toString('hex'),
       resave: true,
       saveUninitialized: true
     })
