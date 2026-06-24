@@ -1,9 +1,9 @@
 {
-    "clientID":"BOTclientID",
-    "clientSecret":"BOTclientSecret",
+    "clientID":"1519218121422934126",
+    "clientSecret":"1an06-XGF-gjXQWslhfc4X564S7FCR--",
     "callbackURL":"http://localhost:1337/login/api",
-    "Admin":["userAdminID"],
-    "token":"BOTtoken",
+    "Admin":["1479018247692091495"],
+    "token":"MTUxOTIxODEyMTQyMjkzNDEyNg.GJXtTt.dT_WvWJBYDKJDHEY29K4MkuqM3QTEY6r7aN02o",
     "prefix":"-",
-    "port":"1337"
+    "port":"3000"
 }
